@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0"/>
+    <title>问答模块</title>
+  </head>
+  <body> 
+    <app></app>
+    <!-- built files will be auto injected -->
+    <script type="text/javascript">
+        document.body.innerHTML += '<div id="loading" style="height:100%;text-align:center;"><img style="position: relative; top:50%;" src="./static/loading.gif"></div>';
+        document.getElementById('loading').style.height = document.documentElement.clientHeight + 'px';
+        window.myconfig = {
+            apiRoot : 'http://127.0.0.1/tempTest/q7a/index.php?1=1',
+            mid : 1
+        };
+    </script>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+body, div, ul, li{
+	padding: 0px 0px;
+	margin: 0px 0px;
+}
+
+li{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+}
